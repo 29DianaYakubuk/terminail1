@@ -1,0 +1,77 @@
+    1  pwd
+    2  mkdir group_33
+    3  cd group_33
+    4  mkdir dir_1 dir_2 dir_3
+    5  cd dir_2
+    6  touch 1.txt
+    7  touch 2.txt
+    8  {}
+    9  touch 2.txt
+   10  {"user_name":"Diana"}
+   11  {"user_name":"Diana", "user_age":32, "Family":{person_1:
+   12  $ {"user_name":"Diana", "user_age":32, "Family":{person_1:{"name":"Vitalik", "age":2}, "person_2":{"name":"Yaroslav", "age":8}}
+   13  {"user_name":"Diana", "user_age":32, "Family":{person_1:{"name":"Vitalik", "age":2}, "person_2":{"name":"Yaroslav", "age":8}}
+   14  {"user_name":"Diana", "user_age":32, "family":{person_1:{"name":"Vitalik", "age":2}, "person_2":{"name":"Yaroslav", "age":8}}}
+   15  vim
+   16  pwd
+   17  mkdir group_33
+   18  cd group_33
+   19  mkdir dir_1 dir_2 dir_3
+   20  ls -la
+   21  cd dir_2
+   22  touch 1.txt
+   23  touch 2.txt
+   24  touch 3.txt
+   25  vim 1.txt
+   26  touch 2.txt
+   27  ls- la
+   28  cat 2.txt
+   29  cat 1.txt
+   30  vim 2.txt
+   31  cat 2.txt
+   32  ls -la
+   33  mkdir dir_Diana dir_Veronica dir_Vitaly
+   34  ls -la
+   35  cat >3.txt
+   36  cd..
+   37  cd ..
+   38  ls-la
+   39  ls -la
+   40  cd dir_2
+   41  ls -la
+   42  mv 1.txt dir_1/1.txt
+   43  mv 1.txt dir_Diana/1.txt
+   44  mv 2.txt dir_Diana/2.txt
+   45  ls -ls dir_Diana
+   46  cp 1.txt dir_Veronica/1.txt
+   47  pwd
+   48  ls -la
+   49  cd dir_Diana
+   50  cp 1.txt dir_Veronica/1.txt
+   51  cd dir_Diana
+   52  ls -la
+   53  cp 1.txt dir_Veronica/1.txt
+   54  cd ..
+   55  pwd
+   56  ls -la
+   57  cp 3.txt dir_Veronica/3.txt
+   58  ls -la
+   59  cd dir_Veronica
+   60  ls -la
+   61  cd ..
+   62  cp 3.txt dir_Vitaly/3.txt
+   63  cd dir_Vitaly
+   64  ls -la
+   65  find dir_2/3.txt
+   66  cd ..
+   67  pwd
+   68  find dir_2/3.txt
+   69  find -name"3.txt"
+   70  find -name "3.txt"
+   71  ls | grep Diana
+   72  head -n3 3.txt
+   73  tail -n3 3.txt
+   74  less 3.txt
+   75  date
+   76  history
+   77  history >> hist.txt
