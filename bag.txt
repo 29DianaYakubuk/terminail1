@@ -1,4 +1,4 @@
-number[B
+number
 environment
 title
 steps to reproduce
