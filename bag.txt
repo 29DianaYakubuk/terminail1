@@ -1,0 +1,7 @@
+number[B
+environment
+title
+steps to reproduce
+actual result
+excpected result
+attempt to repeat
